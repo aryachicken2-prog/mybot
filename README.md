@@ -2,7 +2,22 @@
 
 ## 📝 معرفی (فارسی)
 
-این پروژه یک ربات تلگرام پیشرفته برای مدیریت رویدادها، ثبت‌نام کاربران، مدیریت عضویت، پنل ادمین و ارسال پیام همگانی است. این ربات با استفاده از کتابخانه Telethon و پایگاه داده SQLite توسعه یافته و قابلیت شخصی‌سازی بالایی دارد.
+
+این ربات تلگرام برای مدیریت حرفه‌ای رویدادها و ثبت‌نام آنلاین طراحی شده است. هدف اصلی آن ساده‌سازی فرآیند ثبت‌نام، مدیریت اعضا و تسهیل ارتباط بین ادمین و کاربران است. ادمین می‌تواند رویدادهای مختلف تعریف کند، ظرفیت و هزینه هر رویداد را مشخص نماید و به راحتی وضعیت ثبت‌نام‌ها را مدیریت کند. کاربران نیز می‌توانند به سادگی در رویدادها ثبت‌نام کنند، مدارک لازم را ارسال نمایند و وضعیت خود را پیگیری کنند.
+
+**کاربردهای اصلی ربات:**
+- مناسب برای انجمن‌ها، موسسات آموزشی، همایش‌ها و هر مجموعه‌ای که نیاز به ثبت‌نام و مدیریت رویداد دارد.
+- کاهش خطا و اتلاف وقت در مدیریت دستی ثبت‌نام‌ها و پرداخت‌ها.
+- افزایش شفافیت و سرعت در اطلاع‌رسانی و تایید عضویت یا ثبت‌نام.
+
+**چرخه کار ربات:**
+1. ادمین رویداد جدید تعریف می‌کند و اطلاعات آن را وارد می‌نماید.
+2. کاربران با عضویت در کانال و ورود به ربات، لیست رویدادها را مشاهده می‌کنند.
+3. هر کاربر می‌تواند در رویداد مورد نظر ثبت‌نام کند و اطلاعات و مدارک لازم را ارسال نماید.
+4. ادمین ثبت‌نام‌ها را بررسی و تایید یا رد می‌کند و پیام‌های لازم را ارسال می‌نماید.
+5. آمار و گزارش‌های کامل برای هر رویداد و ثبت‌نام‌ها در دسترس ادمین است.
+
+این ربات با ساختار ماژولار و قابلیت توسعه، می‌تواند متناسب با نیازهای هر مجموعه شخصی‌سازی شود.
 
 
 ### امکانات و ویژگی‌های ریز ربات
@@ -100,6 +115,22 @@
 ---
 
 ## 📝 English Description
+
+This Telegram bot is designed for professional event management and online registration. Its main goal is to simplify the registration process, manage members, and facilitate communication between admins and users. Admins can define various events, set capacity and costs, and easily manage registration statuses. Users can register for events, upload required documents, and track their status with ease.
+
+**Main Use Cases:**
+- Suitable for associations, educational institutions, conferences, and any organization needing event registration and management.
+- Reduces errors and time wasted in manual registration and payment management.
+- Increases transparency and speed in notifications and membership/registration approvals.
+
+**Bot Workflow:**
+1. Admin defines a new event and enters its details.
+2. Users join the channel and interact with the bot to see the list of events.
+3. Each user can register for their desired event and upload required information and documents.
+4. Admin reviews, approves, or rejects registrations and sends necessary messages.
+5. Complete statistics and reports for each event and registration are available to the admin.
+
+The bot is modular and extensible, making it customizable for any organization’s needs.
 
 This project is an advanced Telegram bot for event management, user registration, membership handling, admin panel, and mass messaging. It is built using the Telethon library and SQLite database, and is highly customizable.
 
