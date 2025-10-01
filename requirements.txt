@@ -1,6 +1,0 @@
-telethon
-python-dotenv
-cryptography
-pandas
-xlsxwriter
-openpyxl
