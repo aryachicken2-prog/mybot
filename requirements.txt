@@ -1,0 +1,9 @@
+telethon
+pandas
+python-docx
+lxml
+openpyxl
+xlsxwriter
+pytz
+cryptography
+python-dotenv
